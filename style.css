@@ -122,3 +122,31 @@ body{
 .copy_right span{
     color: #537895;
 }
+
+/* --------- Media Quarry ------- */
+
+@media (max-width: 750px) {
+    .container{
+        width: 100%;
+        max-width: 300px;
+        padding: 30px 25px 15px;
+    }
+
+    .container .row input{
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 15px;
+        font-weight: 14px;
+    }
+
+    .container .row button{
+        padding: 15px 22px;
+        font-size: 13px;
+    }
+    .container ul li{
+        font-size: 14px;
+    }
+   
+}
